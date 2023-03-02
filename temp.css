@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding:0 ;
+    
+}
+.container {
+    margin-inline: auto;
+    margin-top: 2rem;
+    width: 50%;
+    padding: 2rem;
+    /* background: linear-gradient(to left,#232121,#11180f); */
+    background-image: url(./img/michael-benz-5x8leVdTbg0-unsplash.jpg);
+    background-size: cover;
+    background-image: blur(6px);
+    color: white;
+    border-radius: 2rem;
+    border: #254a1b 0.3rem groove;
+    align-items: center;
+    text-align: center;
+}
+  
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  #result {
+    font-weight: bold;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  
+
+  body{
+    /* background-image: url(./img/michael-benz-5x8leVdTbg0-unsplash.jpg); */
+    background: linear-gradient(to left,#232121,#11180f);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .Cbtn{
+    /* height: auto; */
+    width: max-content;
+    margin: auto;
+    padding: 0.6rem;
+    font-size: 1.2rem ;
+    border-radius: 1.3rem;
+    background-color: #4e8a3d;
+    color: black;
+    border-width: 0.1rem;
+    
+  }
+  #temperature{
+    background-color: #4e8a3d;
+    width: fit-content;
+    height: auto;
+    color: rgb(255, 255, 255);
+    margin: 3px;
+  }
+  #temperature::placeholder{
+    color: beige;
+  }
+  .inputTemp{
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+  }
+  #from{
+    height: 1.8rem;
+    margin: 3px;
+  }
+
+  .Cbtn:hover{
+    background-color: #6fb05d;
+  }

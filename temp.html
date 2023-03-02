@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Temperature Converter</title>
+    <link
+      rel="stylesheet"
+      href="temp.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+        Temperature Converter
+      </h1>
+      <hr />
+      <form>
+        <br />
+        <h3
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+        >
+          Enter temperature:
+        </h3>
+
+        <div class="inputTemp">
+          <input
+            type="number"
+            id="temperature"
+            placeholder="Temperature"
+          />
+
+          <select id="from">
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="celsius">Celsius</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </div>
+
+        <!-- <label>Convert to:</label>
+        <select id="to">
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="celsius">Celsius</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+        <br /><br /> -->
+        <button
+          type="button"
+          onclick="convert()"
+          class="Cbtn"
+        >
+          Convert
+        </button>
+      </form>
+      <div id="result">
+        <h2
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+        >
+          Results :-
+        </h2>
+
+        <input
+          type="text"
+          placeholder="Fahrenheit"
+          id="ansF"
+          value="0F"
+        />
+        <input
+          type="text"
+          placeholder="Kelvin"
+          id="ansK"
+          value="0K"
+        />
+        <input
+          type="text"
+          placeholder="Celsius"
+          id="ansC"
+          value="0C"
+        />
+      </div>
+    </div>
+    <script src="temp.js"></script>
+  </body>
+</html>
